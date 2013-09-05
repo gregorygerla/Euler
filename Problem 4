@@ -1,0 +1,22 @@
+h = 0
+
+    (10..99).each do |x| 
+    (10..99).each do |y|  
+
+    z = x * y
+
+    if z.to_s == z.to_s.reverse
+      palindrome = z
+    end 
+
+    if palindrome.to_i > h.to_i
+      h = palindrome
+    end
+
+
+
+  end
+
+  end
+
+puts h
