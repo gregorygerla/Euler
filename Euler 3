@@ -1,0 +1,17 @@
+doe = 1
+num = 600851475143
+news = 3
+
+while num >= news do
+  
+  if num % news == 0
+    num = num / news
+  
+  end
+  
+  
+  news += 1
+  
+end
+
+puts news
