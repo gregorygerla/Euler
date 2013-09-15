@@ -1,0 +1,17 @@
+x=1
+ y=2
+ array = [1,2]
+ dar = [] 
+   begin
+     z = x + y
+
+       if z % 2 == 0
+         a = z
+         dar << a
+       end
+     x = y
+     y = z
+     array << z
+   end while z < 4000000
+     dar.inject {:+}
+     puts "#{dar.sum}"
