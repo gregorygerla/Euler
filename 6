@@ -1,0 +1,15 @@
+z = 0
+y = 0
+
+(1..100).each { |x|
+z  += (x * x )
+
+}
+
+(1..100).each do |x|
+   y += x
+end
+
+sum = (y*y)
+
+p (sum - z)
